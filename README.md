@@ -1,5 +1,5 @@
 # WinErr
-####A windows batch file that displays windows error messages with a flashing screen and annoying sounds.
+#### A windows batch file that displays windows error messages with a flashing screen and annoying sounds.
 
 This is windows only. Ha ha ha ha.
 
