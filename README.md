@@ -1,7 +1,7 @@
 # WinErr
 #### A windows batch file that displays windows error messages with a flashing screen and annoying sounds.
 
-This is windows only. Ha ha ha ha.
+This is windows only.
 
 It's a batch file that cycles through windows error messages. It also changes the colors of the screen and beeps.
 
