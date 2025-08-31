@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL EnableDelayedExpansion
 
-SET PTR=0
+SET MSGID=0
 SET BGC=0
 SET FGC=1
 SET "HEX=0123456789ABCDEF"
@@ -17,11 +17,11 @@ SET "FGC=!HEX:~%FGC%,1!"
 COLOR %BGC%%FGC%
 
 ECHO -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-NET HELPMSG %PTR%
+NET HELPMSG %MSGID%
 REM Causes the system beep (BEL character)
 ECHO 
 
-SET /A PTR+=1
+SET /A MSGID+=1
 
 >NUL TIMEOUT /T 1
 GOTO FA
